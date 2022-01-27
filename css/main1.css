@@ -1,0 +1,258 @@
+body{
+	font-size: 15px;
+	font-family: 'Open Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+	overflow-x: hidden;
+}
+
+div, p, input, button, form, span, a, ul, li {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p{
+	font-size: 16px;
+	width: 400px;
+	line-height: 1.6em;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header{
+	background: rgba(78,190,254,1);
+background: -moz-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(241,111,92,1) 0%, rgba(78,189,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,190,254,1)), color-stop(0%, rgba(241,111,92,1)), color-stop(0%, rgba(78,189,254,1)), color-stop(100%, rgba(55,143,217,1)));
+background: -webkit-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(241,111,92,1) 0%, rgba(78,189,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(241,111,92,1) 0%, rgba(78,189,254,1) 0%, rgba(55,143,217,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(78,190,254,1) 0%, rgba(241,111,92,1) 0%, rgba(78,189,254,1) 0%, rgba(55,143,217,1) 100%);
+background: linear-gradient(135deg, rgba(78,190,254,1) 0%, rgba(241,111,92,1) 0%, rgba(78,189,254,1) 0%, rgba(55,143,217,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ebefe', endColorstr='#378fd9', GradientType=1 );
+padding-top: 62px;
+padding-bottom: 71px;
+color: #fff;
+}
+
+.wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.offer{
+	width: 570px;
+}
+
+.title{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 37px;
+	font-weight: 700;
+}
+.title span{
+	font-size: 59px;
+}
+ 
+ .text{
+     margin-top: 40px; 
+     margin-bottom: 30px; 
+ }
+
+ .btn{
+ 	font-family: 'Montserrat', sans-serif;
+ 	background: #ffd429;
+ 	color: #2e2a1b;
+ 	display: block;
+ 	width: 222px;
+ 	padding: 20px 0px;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	transition: all 0.5s ease;
+ 	
+ }
+.btn:hover {
+	background: #dbb520;
+
+}
+
+.happend{
+	padding-top: 108px;
+	padding-bottom: 115px;
+	color: #201b2d;
+}
+
+.happends{
+	display: flex;
+	justify-content: space-between;
+    align-items: flex-end;
+}
+
+.happend-title{
+	font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.reward{
+    text-align: center;
+}
+
+.reward-title{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+	font-size: 19px;
+}
+
+
+.reward-text{
+	width: 300px;
+	text-align: center;
+	padding-bottom: 27px;
+	color: #201b2d;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+
+.icon{
+	padding-bottom: 27px;
+}
+
+.future{
+	padding-top: 105px;
+	padding-bottom: 104px;
+	background: #ecf3f8;
+}
+
+.input{
+	width: 100%;
+	border: 1px solid #bbbbbb;
+	color: #85828c;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	height: 48px;
+	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 15px;
+	padding-left: 25px;	
+}
+
+.form{
+	max-width: 343px;
+	margin: 0 auto;
+}
+
+.input{
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+
+.container-future{
+	padding: 0;
+}
+
+.btn-future{
+	width: 100%;
+	height: 48px;
+	margin-top: 15px;
+	border: none;
+	padding: 0;
+	text-align: center;
+	cursor: pointer;
+}
+
+.footer{
+    padding-top: 62px;
+    padding-bottom: 62px;
+    background: #164d7a;
+}
+
+.credits{
+	font-size: 14px;
+    color: #fff;
+    margin: 0;
+    text-align: center; 
+}
+
+.red{
+	color: red;
+}
+
+/*Responsive*/
+
+/* 992px-1200px*/
+@media screen and (max-width: 1200px) {
+ .container{
+ 	width: 960px;
+ }
+ .desktop{
+ 	width: 571px;
+ 	height: 571px;
+ 	margin-top: 30px;
+ }
+
+/* 768px-992px*/
+@media screen and (max-width: 992px) {
+.container{
+ 	width: 720px;
+ }
+ .wrapper{
+ 	flex-direction: column;
+ }
+ .offer{
+ 	width: auto;
+ }
+ }
+ .desktop{
+ 	display: block;
+    margin: 0 auto;
+ }
+ .happends{
+ 	flex-direction: column;
+ }
+ .reward{
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	margin-bottom: 27px;
+ }
+}
+/* 576px-768px*/
+@media screen and (max-width: 768px) {
+.container{
+ 	width: 540px;
+ }
+ .desktop{
+ 	width: 100%;
+ }
+}
+/* 320px-576px*/
+@media screen and (max-width: 576px) {
+.container{
+ 	width: 90%;
+ }
+ .text{
+ 	width: 100%;
+ }
+ .desktop{
+ 	height: 288px;
+ }
+ .credits{
+ 	width: 100%;
+ }
+}
+
+
+ 	
+ 	
+ 	
+
+
+
+
